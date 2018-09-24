@@ -1,0 +1,59 @@
+.date-list {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-template-rows: auto;
+   text-align: center;
+   grid-gap: 8px 0px;
+}
+
+p {
+    font-size: 16px;
+    padding: 8px 0px;
+    margin: 0;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+P:hover {
+    background: rgba(223, 223, 223, 0.541);  
+    transition: 300ms;
+}
+p:focus {
+    background: rgb(227,227,250);
+    color: rgb(101,105,235);
+}
+
+.selected {
+    border-radius: 0%;
+    background: rgb(227,227,250);
+    color: rgb(101,105,235);
+}
+.selected:hover {
+    color: rgb(97, 101, 224);
+    background: rgb(216, 216, 255);
+}
+
+.leftTip {
+    border-radius: 100px 0px 0px 100px;
+}
+.rightTip {
+    border-radius: 0px 100px 100px 0px;
+}
+.today {
+    font-weight: 600;
+    color: rgb(34,34,34);
+}
+.notCurrent {
+    color: rgb(216, 216, 216);
+}
+
+.currentDate {
+    border-radius: 0%;
+    background: rgb(227,227,250);
+    color: rgb(101,105,235);
+}
+.currentDate:hover {
+    color: rgb(97, 101, 224);
+    background: rgb(216, 216, 255);
+}
