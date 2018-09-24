@@ -28,14 +28,12 @@ class DateList extends Component {
             where the following month is the first month of the following year
         */
         if(this.props.month === 0) { //if month is january
-            console.log("first month")
             previousMonthDates = getDaysInMonth(11, this.props.year - 1);
         } else {
             previousMonthDates = getDaysInMonth(this.props.month - 1, this.props.year);
         }
         
         if(this.props.month === 11) { //if month is december
-            console.log("last month")
             followingMonthDates = getDaysInMonth(0, this.props.year + 1);
         } else {
             followingMonthDates = getDaysInMonth(this.props.month + 1, this.props.year);

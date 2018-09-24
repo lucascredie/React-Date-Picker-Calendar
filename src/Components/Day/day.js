@@ -142,19 +142,17 @@ class Day extends Component {
        if(this.props.currentDate === null) {
            this.clearDates();
        }
-        console.log("setting current date");
+        
         this.props.setCurrentDate({date: this.props.full, index: this.props.index});
       
 
         if(this.props.currentDate !== null && this.getStringDate(this.props.currentDate.date) < this.getStringDate(this.props.full)) {
             
             //date that was just selected (this.props.full) is last date
-            console.log("i just selected the last date");
             this.props.addDates(this.props.currentDate,{date: this.props.full, index: this.props.index});
             this.props.setCurrentDate(null);
                  
         } else if (this.props.currentDate !== null && this.getStringDate(this.props.currentDate.date) > this.getStringDate(this.props.full)){
-            console.log("i just selected the start date");
             this.props.addDates({date: this.props.full, index: this.props.index}, this.props.currentDate);
             this.props.setCurrentDate(null);
         } 
