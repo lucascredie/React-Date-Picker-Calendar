@@ -18,7 +18,7 @@ class DateList extends Component {
         //initialize variables that will hold previous and following month
         let previousMonthDates;
         let followingMonthDates;
-
+        let rows = 6;
 
         //this section grabs all months from previous, current and following and add them together
         /*
@@ -48,7 +48,7 @@ class DateList extends Component {
         //then limits the array to have 35 dates since that is the limit on our display
         let display = allMonths
         .slice(previousMonthDates[previousMonthDates.length - 1].getDate() - currentMonthDates[0].getDay()) 
-        .slice(0,35);
+        .slice(0,rows * 7);
 
         
         let displayData = display; //we make a copy of display
