@@ -9,7 +9,7 @@ class CalendarHeader extends Component {
 
     render() {
         //array that connects index from date object ( getDay()) and a month of the year.
-        let monthName = ["January","February","March","April","May","June","july","August","September","October","November","December"];
+        let monthName = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
         return (
         <div>
