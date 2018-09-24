@@ -1,6 +1,6 @@
 # Date Picker Component  
 
-A Calendar React component that allow users to select a range of dates.
+As my first project with react, i made a date picker component.
 
 ### Preview 
 
