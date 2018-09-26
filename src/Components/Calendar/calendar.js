@@ -1,4 +1,4 @@
-/* Lucas Credie Nogueira de Lima && Malek Hakim - 2018 */
+/* Lucas Credie Nogueira de Lima - 2018 */
 
 import React, { Component } from 'react';
 import CalendarHeader from '../CalendarHeader/calendarHeader';
