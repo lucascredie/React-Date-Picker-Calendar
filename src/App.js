@@ -17,10 +17,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Calendar></Calendar>
+        <Calendar getDates={(startDate, endDate) => console.log(startDate, endDate)} />
       </div>
     );
   }
+  
 }
 
 export default App;

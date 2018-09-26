@@ -36,8 +36,7 @@ class Calendar extends Component {
             startDate: {date: null, index: -1},
             endDate: {date: null, index: -1},
             currentDate: null
-        }
-       
+        }  
     }
 
     /*
@@ -64,6 +63,7 @@ class Calendar extends Component {
             }) 
         }
     }
+    
 
     /*
         followingMonth increments state's current month. this is used to alter the view.
@@ -104,6 +104,8 @@ class Calendar extends Component {
     }
 
     render() {
+
+        this.props.getDates(this.state.startDate.date, this.state.endDate.date);
             
             return (
                 <div className="calendar-container">
@@ -133,9 +135,6 @@ class Calendar extends Component {
             );
 
     }
-
-    
-    
     
 
 }  
