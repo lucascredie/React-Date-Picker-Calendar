@@ -2,6 +2,12 @@
 
 As my first project with react, i made a date picker component.
 
+### How to use
+```
+import the calendar folder and its sub folders
+install font-awesome
+Use calendar component like any other.
+```
 ### Preview 
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/25356024/45935187-6533c700-bf6e-11e8-8ab0-d02595d41032.gif)
