@@ -1,7 +1,7 @@
 # Date Picker Component  
 
 As my first project with react, i made a date picker component.
-
+Click [Here](http://lucascredie.com/calendar/) to test it!
 ### How to use
 ```
 import the calendar folder and its sub folders
