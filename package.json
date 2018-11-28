@@ -10,6 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.3"
     
   },
+  //"homepage": "http://lucascredie.com/calendar",
   "devDependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
